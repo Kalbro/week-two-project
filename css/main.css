@@ -1,0 +1,304 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*Homepage*/
+
+html{
+  font-family: PT sans;
+}
+  nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+  }
+
+  .logo {
+  background-image: url(../images/images/filmclub.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width:27%;
+  background-color: #F5005B;
+  height:120px;
+
+  }
+
+  .nav-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:75%;
+  text-align: center;
+  }
+
+.nav-row a{
+  color:white;
+  text-decoration: none;
+  font-family: PT sans;
+  font-size: 12px;
+}
+.nav-item1{
+  background-color: #00a5bf;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.nav-item2{
+  background-color: #00b7d3;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.nav-item3{
+  background-color: #00d5e7;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.section_container1{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.watch h2{
+  background-color: #0b1942;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.watch p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.take_notes h2{
+  background-color: #0b1942;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.take_notes p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.meetup h2{
+  background-color: #0b1942;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.meetup p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.section_container2{
+  background-color: #0b1942;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.section_container2 h2{
+  color: white;
+padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.poster-container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #e2e2e2;
+  margin: 20px;
+}
+
+.rashomon_info{
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+line-height: 1.5;
+}
+
+.rashomon_info p{
+  font-size: 15px;
+  border-bottom: thin solid black;
+}
+
+.rashomon_info ul{
+  list-style:circle;
+  margin-top: 20px;
+}
+
+.rashomon_info a{
+  font-size: 20px;
+  width: 50%;
+}
+.rashomon_poster{
+  background-image: url(../images/images/rashomon-poster.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width:50%;
+  height:200px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.poster-container2{
+  background-color: #e2e2e2;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom: 20px;
+  width:90%;
+
+
+}
+.posters{
+  list-style: none;
+}
+
+.posters ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+.posters li{
+  margin:20px;
+  width: 30%;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:100%;
+  text-align: center;
+}
+
+.footer-row a{
+  color:white;
+  text-decoration: none;
+  font-family: PT sans;
+  font-size: 12px;
+}
+
+footer{
+  padding:40px;
+  background-color: #7ddfe8;
+}
+
+/*tablet layout home page*/
+@media screen and ( min-width: 544px) {
+
+  .nav-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex:1;
+  text-align: center;
+  background-color: #7ddfe8;
+  list-style: none;
+  height:100px;
+  }
+
+  .logo{
+    width: 15%;
+    height:100px;
+  }
+
+  .nav-item1, .nav-item2, .nav-item3 {
+    width:15%;
+    padding-top:20px;
+    height:100px;
+  }
+
+  .section_container1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+  }
+  .watch, .take_notes, .meetup{
+    margin: 10px;
+  width: 30%;
+  }
+
+  .rashomon_poster{
+    height: 300px;
+
+    margin-top:10px;
+  margin-bottom:10px;
+  margin-left: 10px;
+  }
+
+  .rashomon_info{
+    width: calc(40% - 20px);
+    float: right;
+
+  }
+.posters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.posters img{
+  width: 100%;
+}
+
+  .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex:1;
+    text-align: center;
+    list-style: none;
+    height:100px;
+  }
+}
