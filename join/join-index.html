@@ -1,28 +1,30 @@
+<!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <title>Responsive Layout</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="../css/main.css">
-    <style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
     @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
-    </style>
-  </head>
-  <body>
-    <nav>
-      <a class="logo"></a>
-      <ul class= "nav-row">
-        <li class= "nav-item1">
-          <a href= "../home-index.html">Home</a>
-        </li>
-        <li class= "nav-item2">
-          <a href= "../calendar/calendar-index.html">Calendar</a>
-          </li>
-          <li class= "nav-item3">
-            <a href= "join-index.html">Join</a>
-          </li>
-        </ul>
-      </nav>
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="../images/images/filmclub.png" alt="film image logo"></div>
+    <ul class="nav-row">
+      <li class="nav-item nav-item1">
+        <a href="../home-index.html">Home</a>
+      </li>
+      <li class="nav-item nav-item2">
+        <a href="../calendar/calendar-index.html">Calendar</a>
+      </li>
+      <li class="nav-item nav-item3">
+        <a href="../join/join-index.html">Join</a>
+      </li>
+    </ul>
+  </nav>
       <!--  1st container-->
       <main>
         <h1 class="join-header">Join Film Club<h1>
@@ -35,9 +37,7 @@
         </div>
         </section>
 <!-- 2nd container -->
-  <section>
-      <img src="../images/images/profile-placeholder.png" alt="profile-pic">
-    </section>
+      <div class="profile-pic"><img src="../images/images/profile-placeholder.png" alt="profile picture"></div>
     <!--radio list  -->
     <section class="interest">
       <h5> Which genres are you interested in?</h5>
@@ -95,19 +95,19 @@
     </section>
         <!-- footer -->
       </main>
-      <nav>
-        <ul class= "nav-row">
-          <li class= "nav-item1">
-            <a href= "../home-index.html">Home</a>
+      <footer>
+        <ul class= "footer-row">
+          <li class= "nav-item nav-item1">
+            <a href= "home-index.html">Home</a>
           </li>
-          <li class= "nav-item2">
-            <a href= "../calendar/calendar-index.html">Calendar</a>
+          <li class= "nav-item nav-item2">
+            <a href= "./calendar/calendar-index.html">Calendar</a>
             </li>
-            <li class= "nav-item3">
-              <a href= "join-index.html">Join</a>
+            <li class= "nav-item nav-item3">
+              <a href= "./join/join-index.html">Join</a>
             </li>
           </ul>
-        </nav>
-        <footer>© 2017, Film Club</footer>
-        </body>
-      </html>
+              <span class= "copywrite">© 2017, Film Club</span>
+            </footer>
+           </body>
+            </html>
