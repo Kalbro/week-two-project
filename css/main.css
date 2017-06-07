@@ -371,6 +371,23 @@ h2{
 
 /*-------------------join-----------------*/
 
-.profile-pic{
-  border-radius: 50%;
+.cal-title{
+  color: white;
+  margin:20px;
+  width: 100%;
+}
+
+.month{
+  background-color: #0b1942;
+}
+
+.days{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.number{
+display: flex;
+flex-direction: row;
 }
