@@ -369,25 +369,90 @@ h2{
 }
 }
 
-/*-------------------join-----------------*/
+/*-------------------calendar-----------------*/
 
 .cal-title{
   color: white;
-  margin:20px;
+  font-weight: lighter;
+  margin:15px;
   width: 100%;
+  font-size: 20px;
+
 }
 
 .month{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   background-color: #0b1942;
 }
 
-.days{
+.days ul{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  background-color:  #0b1942;
+  color:white;
+  font-size: 10px;
+  padding-bottom:30px;
 }
 
-.number{
-display: flex;
-flex-direction: row;
+.days li{
+background-color: #0b1942;
+padding-left: 5px;
+padding-top:5px;
+height:20px;
+width:20px;
+
 }
+
+.box{
+  background: white;
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  border: 1px solid #0b1942;
+}
+
+.active{
+  background-color: #f5005b;
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  border: 1px solid #0b1942;
+}
+
+/*-------------calendar tablet----*/
+
+@media screen and (min-width: 544px) {
+
+.box{
+  height: 80px;
+  width: 80px;
+}
+
+.active{
+  height: 80px;
+  width: 80px;
+}
+
+.copywrite{
+text-align: right;
+padding-right: 0;
+padding-left: 100px;
+}
+}
+
+/*-------------calendar desktop----*/
+
+@media screen and (min-width: 769px) {
+
+
+  .box{
+    height: 100px;
+    width: 100px;
+  }
+
+  .active{
+    height: 100px;
+    width: 100px;
+  }
