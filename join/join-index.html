@@ -37,18 +37,22 @@
         </div>
       <div class="profile-pic"><img src="../images/images/profile-placeholder.png" alt="profile picture"></div>
     </section>
+    <form>
     <!-- text box list -->
-    <fieldset>
-      <label for="name">name</label>
-      <input type="text" name="user">
-      <label for="email">email</label>
-      <input type="text" name="email">
-      <label for="password">password</label>
-      <input type="password" name= "password">
-      <label for="confirmpassword">confirm password</label>
-      <input type="password" name="confirmpassword">
-    </fieldset>
-
+      <div class="input-container">
+          <label for="name">name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="input-container">
+          <label for="emailAddress">email address</label>
+          <input type="text" id="emailAddress" name="emailAddress"></div>
+        <div class="input-container">
+          <label for="password">password</label>
+          <input type="password" id="password" name="password"></div>
+        <div class="input-container">
+          <label for="confirmPassword">confirm password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword"></div>
+      </div>
 <!--radio list  -->
     <section class="interest">
       <h5> Which genres are you interested in?</h5>
@@ -99,11 +103,12 @@
   </section>
   <!-- input box -->
 <section>
-      <div class="input-container">
+      <div class="additional-container">
         <label for="input">Additional input</label>
         <input type="text" id="input" name="input">
       </div>
     </section>
+  </form>
         <!-- footer -->
       </main>
       <footer>

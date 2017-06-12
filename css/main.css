@@ -457,4 +457,8 @@ padding-left: 100px;
     width: 100px;
   }
 
-  /*----------join-----------*/
+/*-------------join------------*/
+
+input, #name{
+  background: blue;
+}
