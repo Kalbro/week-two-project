@@ -10,6 +10,7 @@
     @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
   </style>
 </head>
+
 <body>
   <nav>
     <div class="logo"><img src="../images/images/filmclub.png" alt="film image logo"></div>
@@ -25,105 +26,107 @@
       </li>
     </ul>
   </nav>
-      <!--  1st container-->
-      <main>
-        <h1 class="join-header">Join Film Club</h1>
-          <section>
-        <div class="download">
-          <div class="file-container">
-            <h5>profile picture</h5>
-            <label for="file"></label>
+  <!--  1st container-->
+  <main>
+    <h1 class="join-header">Join Film Club</h1>
+    <form>
+      <div class="download">
+        <div class="file-container">
+          <h5>profile picture</h5>
+          <label for="file"></label>
           <input type="file" id="file"></div>
-        </div>
+      </div>
       <div class="profile-pic"><img src="../images/images/profile-placeholder.png" alt="profile picture"></div>
     </section>
-    <form>
-    <!-- text box list -->
+      <!-- text box list -->
       <div class="input-container">
-          <label for="name">name</label>
-          <input type="text" id="name" name="name">
+        <label for="name">name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="input-container">
+        <label for="emailAddress">email address</label>
+        <input type="text" id="emailAddress" name="emailAddress"></div>
+      <div class="input-container">
+        <label for="password">password</label>
+        <input type="password" id="password" name="password"></div>
+      <div class="input-container">
+        <label for="confirmPassword">confirm password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword"></div>
+      </div>
+      <!--radio list  -->
+      <section class="interest">
+        <h3> Which genres are you interested in?</h3>
+        <div class="genres">
+          <div class="signup-type">
+          <input type="radio" name="user" value="action">
+          <label for="admin">action</label>
         </div>
-        <div class="input-container">
-          <label for="emailAddress">email address</label>
-          <input type="text" id="emailAddress" name="emailAddress"></div>
-        <div class="input-container">
-          <label for="password">password</label>
-          <input type="password" id="password" name="password"></div>
-        <div class="input-container">
-          <label for="confirmPassword">confirm password</label>
-          <input type="password" id="confirmPassword" name="confirmPassword"></div>
-      </div>
-<!--radio list  -->
-    <section class="interest">
-      <h5> Which genres are you interested in?</h5>
-      <div class="genres">
-      <input type="radio" name="user" value="action">
-    <label for="admin">action</label>
-    <div class="signup-type">
-      <input type="radio" name="user" value="adventure">
-    <label for="admin">adventure</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="comedy">
-    <label for="admin">comedy</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="drama">
-    <label for="admin">drama</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="fantasy">
-    <label for="admin">fantasy</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="historical">
-    <label for="admin">historical</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="horror">
-    <label for="admin">horror</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="mystery">
-    <label for="admin">mystery</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="romance">
-    <label for="admin">romance</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="science fiction">
-    <label for="admin">science fiction</label>
-    </div>
-    <div class="signup-type">
-      <input type="radio" name="user" value="western">
-    <label for="admin">western</label>
-    </div>
-    </div>
-  </section>
-  <!-- input box -->
-<section>
-      <div class="additional-container">
-        <label for="input">Additional input</label>
-        <input type="text" id="input" name="input">
-      </div>
-    </section>
-  </form>
-        <!-- footer -->
-      </main>
-      <footer>
-        <ul class= "footer-row">
-          <li class= "nav-item nav-item1">
-            <a href= "home-index.html">Home</a>
-          </li>
-          <li class= "nav-item nav-item2">
-            <a href= "./calendar/calendar-index.html">Calendar</a>
-            </li>
-            <li class= "nav-item nav-item3">
-              <a href= "./join/join-index.html">Join</a>
-            </li>
-          </ul>
-              <span class= "copywrite">© 2017, Film Club</span>
-            </footer>
-           </body>
-            </html>
+          <div class="signup-type">
+            <input type="radio" name="user" value="adventure">
+            <label for="admin">adventure</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="comedy">
+            <label for="admin">comedy</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="drama">
+            <label for="admin">drama</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="fantasy">
+            <label for="admin">fantasy</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="historical">
+            <label for="admin">historical</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="horror">
+            <label for="admin">horror</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="mystery">
+            <label for="admin">mystery</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="romance">
+            <label for="admin">romance</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="science fiction">
+            <label for="admin">science fiction</label>
+          </div>
+          <div class="signup-type">
+            <input type="radio" name="user" value="western">
+            <label for="admin">western</label>
+          </div>
+        </div>
+      </section>
+      <!-- input box -->
+      <section>
+        <div class="additional-container">
+          <label for="text">Additional input</label>
+          <input type="textarea" name="user">
+        </div>
+      </section>
+    </form>
+    <!-- footer -->
+  </main>
+  <footer>
+    <ul class="footer-row">
+      <li class="nav-item nav-item1">
+        <a href="home-index.html">Home</a>
+      </li>
+      <li class="nav-item nav-item2">
+        <a href="./calendar/calendar-index.html">Calendar</a>
+      </li>
+      <li class="nav-item nav-item3">
+        <a href="./join/join-index.html">Join</a>
+      </li>
+    </ul>
+    <span class="copywrite">© 2017, Film Club</span>
+  </footer>
+</body>
+
+</html>
